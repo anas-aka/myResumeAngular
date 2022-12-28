@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BesicInfoComponent } from './besic-info/besic-info.component';
 import { SkillsComponent } from './skills/skills.component';
+import { LanguageComponent } from './language/language.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BesicInfoComponent,
-    SkillsComponent
+    SkillsComponent,
+    LanguageComponent
   ],
   imports: [
     BrowserModule,
