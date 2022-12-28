@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { BesicInfoComponent } from './besic-info/besic-info.component';
 import { SkillsComponent } from './skills/skills.component';
 import { LanguageComponent } from './language/language.component';
+import { AboutMeComponent } from './about-me/about-me.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BesicInfoComponent,
     SkillsComponent,
-    LanguageComponent
+    LanguageComponent,
+    AboutMeComponent
   ],
   imports: [
     BrowserModule,
