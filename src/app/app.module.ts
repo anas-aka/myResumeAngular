@@ -7,6 +7,8 @@ import { BesicInfoComponent } from './besic-info/besic-info.component';
 import { SkillsComponent } from './skills/skills.component';
 import { LanguageComponent } from './language/language.component';
 import { AboutMeComponent } from './about-me/about-me.component';
+import { PersonalInfoComponent } from './personal-info/personal-info.component';
+import { EducationComponent } from './education/education.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { AboutMeComponent } from './about-me/about-me.component';
     BesicInfoComponent,
     SkillsComponent,
     LanguageComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    PersonalInfoComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule,
